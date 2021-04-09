@@ -1,0 +1,4 @@
+---
+# vars file for findfetch_role
+src_file_loc: "/home/{{ ansible_user_id }}/fetchz" #Delcaring source file path
+dest_file_loc: "/home/{{ ansible_user_id }}/fetchz" #Declaing destination file path
