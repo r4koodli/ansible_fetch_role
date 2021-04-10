@@ -5,5 +5,5 @@
   vars:
     Files: []     #Initializing list to debug and identify files to zip
   roles:
-    - /home/vagrant/findfetch_role #Useful for testing and dryrun on local machine
+    - /home/vagrant/findfetch_role #Used for testing and dryrun on local machine
     #- /home/{{ ansible_user_id }}/findfetch_role ----->Syntax to run on anyserver
